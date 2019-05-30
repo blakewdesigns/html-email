@@ -5,7 +5,7 @@
 <body>
     <style>
         body{
-            padding: 15px 150px;
+            padding: 15px 50px;
         }
         .centered{
             text-align: center;
@@ -29,6 +29,21 @@
             width: 100%;
             border-collapse: collapse;
         }
+        #officialp{
+            padding: 10px 150px;
+        }
+        @media only screen and (max-width: 740px){
+            #s5, #s6, #s7{
+                display: block !important;
+            }
+            #s5c1, #s5c2, #s6c1, #s6c2, #s7c1, #s7c2{
+                display: block !important;
+                width: 100% !important;
+            }
+            #officialp{
+                padding: 10px 30px;
+            }
+        }
     </style>
     <table>
         <tr width="100%">
@@ -44,7 +59,7 @@
         <tr>
             <td class="centered" style="background-color: #253544; color: white;" height="600px">
                 <h2>The Winter Winston Set</h2>
-                <p style="padding: 10px 200px;">It's official: the Winter Winston Set is our most popular gift this holiday. We're really excited for those lucky people on your list. Thanks for making us a part of your holidays.</p>
+                <p id="officialp">It's official: the Winter Winston Set is our most popular gift this holiday. We're really excited for those lucky people on your list. Thanks for making us a part of your holidays.</p>
                 <p style="padding: 30px;">Still need a gift? It's not too late.</p>
                 <a class="button" href="#">Shop Now</a>
             </td>
@@ -57,12 +72,12 @@
         <tr>
             <td>
                 <table>
-                    <tr>
-                        <td width="50%" class="centered" style="background-color: #94755D; color: white;">
+                    <tr id="s5">
+                        <td id="s5c1" width="50%" class="centered" style="background-color: #94755D; color: white;">
                             <h3>It can be Engraved</h3>
                             <p style="padding: 0px 70px;">Initials make good gifts great. Pick up to 3 letters to engrave on the handle to make every set extra personal for the lucky guy who receives it.</p>
                         </td>
-                        <td width="50%">
+                        <td id="s5c2" width="50%">
                             <img width="100%"; height="auto"; src="/images/harrys-engrave.jpg">
                         </td>
                     </tr>
@@ -72,11 +87,11 @@
         <tr>
             <td>
                 <table>
-                    <tr>
-                        <td width="50%">
+                    <tr id="s6">
+                        <td id="s6c1" width="50%">
                             <img width="100%"; height="auto"; src="/images/harrys-winston-set_small.jpg">
                         </td>
-                        <td width="50%" class="centered" style="background-color: #00625B; color: white;">
+                        <td id="s6c2" width="50%" class="centered" style="background-color: #00625B; color: white;">
                             <h2>It's Limited-Edition</h2>
                             <p style="padding: 0px 70px;">The limited-edition Winter Winston Set has everything he needs to turn his morning shave routine around and is only available for a short time.</p>
                         </td>
@@ -93,7 +108,7 @@
         <tr>
             <td>
                 <table>
-                    <tr>
+                    <tr id="s7">
                         <td id="s7c1" width: 50%;>
                             <h4>© 2015 HF Global, Inc. All Rights Reserved.</h4>
                             <p>Harry's, H', Mammoth Design, Give a Shave, Truman, and HF are trademarks and/or registered trademarks of HF Global, Inc.</p>
