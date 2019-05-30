@@ -1,55 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Harrys Email</title>
-</head>
 <body>
+    <style>
+        body{
+            padding: 15px 150px;
+        }
+        .centered{
+            text-align: center;
+        }
+        #logo{
+            width: 20%;
+            height: auto;
+            padding-bottom: 15px;
+        }
+        .button{
+            text-decoration: none;
+            padding: 20px 40px;
+            background-color: #E34F30;
+            border-radius: 5px;
+            color: white;
+        }
+        /* #s7c1, #s7c2{
+            ÷
+        } */
+        table{
+            width: 100%;
+        }
+    </style>
     <table>
-        <thead>
-            <tr>
-                <img src="/images/harrys-logo.png">
-            </tr>
-            <tr>
-                <img src="/images/harryhero.png">
-            </tr>
-        </thead>
-        <tr>
-            <th>The Winter Winston Set</th>
-            <td>It's official: the Winter Winston Set is our most popular gift this holiday. We're really excited for those lucky people on your list. Thanks for making us a part of your holidays.</td>
-            <td>Still need a gift? It's not too late.</td>
-            <a href="#">Shop Now</a>
+        <tr width="100%">
+            <td class="centered">
+                <img id="logo" src="/images/harrys-logo.png">
+            </td>
         </tr>
         <tr>
-            <td>About the Winter Winston Set</td>
+            <td>
+                <img width="100%"; src="/images/harryhero.png">
+            </td>
         </tr>
         <tr>
-            <th>It can be Engraved</th>
-            <td>Initials make good gifts great. Picl up to 3 letters to engrave on the handle to make every set extra personal for the lucky guy who receives it.</td>
-            <img src="/images/harrys-engrave.jpg">
+            <td class="centered" style="background-color: #253544; color: white;" height="600px">
+                <h2>The Winter Winston Set</h2>
+                <p style="padding: 10px 200px;">It's official: the Winter Winston Set is our most popular gift this holiday. We're really excited for those lucky people on your list. Thanks for making us a part of your holidays.</p>
+                <p style="padding: 30px;">Still need a gift? It's not too late.</p>
+                <a class="button" href="#">Shop Now</a>
+            </td>
         </tr>
         <tr>
-            <img src="/images/harrys-winston-set_small.jpg">
-            <th>It's Limited-Edition</th>
-            <td>The limited-edition Winter Winston Set has everything he needs to turn his morning shave routine around and is only available for a short time.</td>
+            <td class="centered" style="padding: 40px; background-color: #C3C6C8;">
+                <p>About the Winter Winston Set</p>
+            </td>
         </tr>
         <tr>
-            <th>But enough talk. Let the gifting begin.</th>
-            <a href="#">Shop Now</a>
+            <td>
+                <table>
+                    <tr>
+                        <td width="50%" class="centered" style="background-color: #94755D; color: white;">
+                            <h3>It can be Engraved</h3>
+                            <p>Initials make good gifts great. Picl up to 3 letters to engrave on the handle to make every set extra personal for the lucky guy who receives it.</p>
+                        </td>
+                        <td width="50%">
+                            <img width="100%"; height="auto"; src="/images/harrys-engrave.jpg">
+                        </td>
+                    </tr>
+                </table>
+            </td>
         </tr>
-        <tfoot>
-            <tr>
-                <th>© 2015 HF Global, Inc. All Rights Reserved.</td>
-                <th>Contact</th>
-                <td>Harry's, H', Mammoth Design, Give a Shave, Truman, and HF are trademarks and/or registered trademarks of HF Global, Inc.</td>
-                <td>help@harrys.com</td>
-                <td>888 212 6855</td>
-                <td> 161 Avenue of the Americas, Floor 8, New York, NY, 10013</td>
-                <td>Unsubscribe</td>
-            </tr>
-        </tfoot>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td width="50%">
+                            <img width="100%"; height="auto"; src="/images/harrys-winston-set_small.jpg">
+                        </td>
+                        <td width="50%" class="centered" style="background-color: #00625B; color: white;">
+                            <h2>It's Limited-Edition</h2>
+                            <p>The limited-edition Winter Winston Set has everything he needs to turn his morning shave routine around and is only available for a short time.</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td width="100%" height="350px" class="centered" style="background-color: #253544; color: white;">
+                <h2 style="padding: 20px 50px 50px 50px;">But enough talk. Let the gifting begin.</h2>
+                <a class="button" href="#">Shop Now</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td id="s7c1" width: 50%;>
+                            <h4>© 2015 HF Global, Inc. All Rights Reserved.</h4>
+                            <p>Harry's, H', Mammoth Design, Give a Shave, Truman, and HF are trademarks and/or registered trademarks of HF Global, Inc.</p>
+                            <p>161 Avenue of the Americas, Floor 8, New York, NY, 10013</p>
+                            <a href="#"><p>Unsubscribe</p></a>
+                        </td>
+                        <td id="s7c2" width: 50%;>
+                            <h4>Contact</h4>
+                            <p>help@harrys.com</p>
+                            <p>888 212 6855</p>
+                            <a href="#"><img  height="40px"; src="/images/facebook.svg"></a>
+                            <a href="#"><img  height="40px"; src="/images/twitter.svg"></a>
+                            <a href="#"><img  height="40px"; src="/images/instagram.svg"></a>
+                            <a href="#"><img  height="40px"; src="/images/mail.svg"></a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
     </table>
 </body>
 </html>
